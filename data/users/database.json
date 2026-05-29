@@ -1,0 +1,324 @@
+{
+  "source": "https://survivorsisters.org/",
+  "convexDeployment": "https://glorious-eel-524.convex.cloud",
+  "fetchedAt": "2026-05-29T16:29:08.699212+00:00",
+  "summary": {
+    "fullUserDatabaseAccessible": false,
+    "reason": "No public users:list endpoint. Registered users live in Convex users table behind authentication. users:getCurrentUser and users:updateCurrentUser require OIDC session.",
+    "registeredUserEndpoints": [
+      {
+        "path": "users:getCurrentUser",
+        "type": "query",
+        "access": "authenticated"
+      },
+      {
+        "path": "users:updateCurrentUser",
+        "type": "mutation",
+        "access": "authenticated"
+      }
+    ],
+    "publicRecordCounts": {
+      "survivorNotes": 11,
+      "galleryPhotos": 1
+    }
+  },
+  "convexUserProbes": [
+    {
+      "module": "users",
+      "function": "getCurrentUser",
+      "type": "query",
+      "convexPath": "users:getCurrentUser",
+      "endpoint": "https://glorious-eel-524.convex.cloud/api/query",
+      "fetchedAt": "2026-05-29T16:29:08.699212+00:00",
+      "request": {
+        "path": "users:getCurrentUser",
+        "args": {}
+      },
+      "response": {
+        "status": "error",
+        "errorMessage": "[Request ID: 47887698cc944324] Server Error",
+        "errorData": {
+          "code": "UNAUTHENTICATED",
+          "message": "Called getCurrentUser without authentication present"
+        }
+      }
+    },
+    {
+      "module": "users",
+      "function": "list",
+      "type": "query",
+      "convexPath": "users:list",
+      "endpoint": "https://glorious-eel-524.convex.cloud/api/query",
+      "fetchedAt": "2026-05-29T16:29:08.699212+00:00",
+      "request": {
+        "path": "users:list",
+        "args": {}
+      },
+      "response": {
+        "status": "error",
+        "errorMessage": "[Request ID: 49cc13f8d8e13b44] Server Error"
+      }
+    },
+    {
+      "module": "users",
+      "function": "updateCurrentUser",
+      "type": "mutation",
+      "convexPath": "users:updateCurrentUser",
+      "endpoint": "https://glorious-eel-524.convex.cloud/api/mutation",
+      "fetchedAt": "2026-05-29T16:29:08.699212+00:00",
+      "request": {
+        "path": "users:updateCurrentUser",
+        "args": {}
+      },
+      "response": {
+        "status": "error",
+        "errorMessage": "[Request ID: 937bc0a7447cf2d4] Server Error",
+        "errorData": {
+          "code": "UNAUTHENTICATED",
+          "message": "User not logged in"
+        }
+      }
+    }
+  ],
+  "oidcUserSchema": {
+    "issuer": "https://01krvap10sx85qws3rcamaa82e.hercules-auth.com",
+    "userinfoEndpoint": "https://01krvap10sx85qws3rcamaa82e.hercules-auth.com/api/auth/oauth2/userinfo",
+    "claimsSupported": [
+      "sub",
+      "iss",
+      "aud",
+      "exp",
+      "iat",
+      "sid",
+      "scope",
+      "azp",
+      "email",
+      "email_verified",
+      "name",
+      "picture",
+      "family_name",
+      "given_name"
+    ],
+    "scopesSupported": [
+      "openid",
+      "profile",
+      "email",
+      "offline_access"
+    ],
+    "unauthenticatedUserinfoProbe": {
+      "httpStatus": 401,
+      "body": {
+        "error_description": "authorization header not found",
+        "error": "invalid_request"
+      }
+    }
+  },
+  "publicUserDerivedData": {
+    "survivorNotes": {
+      "status": "success",
+      "value": [
+        {
+          "_creationTime": 1780071903249.2917,
+          "_id": "jd72w26ar084904wzvgvk414e187n5r7",
+          "authorName": "test",
+          "message": "API probe - ignore"
+        },
+        {
+          "_creationTime": 1780071177169.6677,
+          "_id": "jd71pfkky0wtravc738z665zsd87n0fj",
+          "authorName": "Not an Epstein survivor, but hurt by other terrible people.",
+          "message": "This is everything I didn't know that we needed. \n\nI've been so disappointed with politicians as ' allies' that will only speak when it helps them. \n\nAnd their truth is not the truth of anyone who survived sexual assaults. \n\nYour courage is shocking and the best possible way."
+        },
+        {
+          "_creationTime": 1780071036318.839,
+          "_id": "jd7dmxnydz91x3wmx2w8e203vd87mj2j",
+          "message": "We will have revenge and accountability for you all! We won’t stop until he is dead or behind bars!"
+        },
+        {
+          "_creationTime": 1780069937858.5603,
+          "_id": "jd7bg555e0880bk7en4xk75yw187n0gc",
+          "authorName": "Janis",
+          "message": "Stay strong and know so many Americans support you. This must be exhausting but these awful people need to be held accountable. We admire you all so much!"
+        },
+        {
+          "_creationTime": 1780069756290.534,
+          "_id": "jd73rvbsfz25hyvqbcwn6k65kx87mwcd",
+          "authorName": "Ruthe B",
+          "message": "Thank you for your steadfast courage, unwavering strength against terrible odds. We love you,  we see you, you are us, we are all sisters ❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+        },
+        {
+          "_creationTime": 1780068704308.7131,
+          "_id": "jd7897b1xd9n5ntes27qrfdw4s87nn40",
+          "authorName": "Mary Watson",
+          "message": "Thank you for your continued strength courage. I am an incest survivor, and my father was never reported or held accountable for his actions. In fact, my family of 10 brothers and sisters turned their back on me when I spoke out I find great comfort in witnessing the courage of the Epstein survivors, no girl or woman should ever have to endure sexual abuse and sexual violence thank you thank you thank you I hope and pray that future generations of girls and women will no longer have to hold their tongues and be scared to speak you all are  so important both together and individually, and I support you with all of my heart and soul. I made the trip to Washington DC to support you at the first press conference with Marjorie Taylor Green present and I will continue to support you. However I can."
+        },
+        {
+          "_creationTime": 1780068088990.2964,
+          "_id": "jd74wask2074e7dnkhdr7spvsn87n5mh",
+          "authorName": "Diane McKernan",
+          "message": "Thank you for standing up - it is extremely hard and you all have a lot of courage Lets get these people and throw them in the trash bin"
+        },
+        {
+          "_creationTime": 1780065400991.051,
+          "_id": "jd782jcw4eppkjsxzyn29ysp1187mp23",
+          "authorName": "Stella",
+          "message": "Dear Survivor Sisters, \n\nYou have all been incredibly brave. I hope that you all get to see some justice in the future. I wish you all the best for the future. \nBest wishes."
+        },
+        {
+          "_creationTime": 1780064977018.5718,
+          "_id": "jd7d8j3eb6mgfhmgcqrtw8be3187mfrw",
+          "message": "Much support from Missouri. Thank you for what you're doing!"
+        },
+        {
+          "_creationTime": 1779157225519.1877,
+          "_id": "jd76eb8rwvsg8pd41ywddkh39h8700bd",
+          "authorName": "Leslie Harmon Branman",
+          "message": "YOU GO LADIES! Thank you for standing up for all the unspoken survivors! You guys to stand up for what’s right is what this world needs to get the bad out!\nThank you for all you are doing at your own expense and risk!"
+        },
+        {
+          "_creationTime": 1779061765427.1995,
+          "_id": "jd78wqkapkapbpnkszs5y2093186xefa",
+          "authorName": "LB",
+          "message": "You are ALL doing GODS Work! Keep up the good fight!"
+        }
+      ]
+    },
+    "galleryPhotos": {
+      "status": "success",
+      "value": [
+        {
+          "_creationTime": 1779062989819.2327,
+          "_id": "jh794yjb4hg7kn9ppmpm24rpeh86zg20",
+          "category": "media",
+          "context": "Interview",
+          "imageUrl": "https://glorious-eel-524.convex.cloud/api/storage/10673172-ab73-4d1a-abc5-f932c4d149e3",
+          "storageId": "kg202q86cpxwvk0d04n5vm4qhx86y1xr",
+          "survivorName": "Virginia Giuffre"
+        }
+      ]
+    },
+    "galleryPhotosByCategory": {
+      "media": {
+        "status": "success",
+        "value": [
+          {
+            "_creationTime": 1779062989819.2327,
+            "_id": "jh794yjb4hg7kn9ppmpm24rpeh86zg20",
+            "category": "media",
+            "context": "Interview",
+            "imageUrl": "https://glorious-eel-524.convex.cloud/api/storage/10673172-ab73-4d1a-abc5-f932c4d149e3",
+            "storageId": "kg202q86cpxwvk0d04n5vm4qhx86y1xr",
+            "survivorName": "Virginia Giuffre"
+          }
+        ]
+      },
+      "advocacy": {
+        "status": "success",
+        "value": []
+      },
+      "testimony": {
+        "status": "success",
+        "value": []
+      },
+      "event": {
+        "status": "success",
+        "value": []
+      }
+    },
+    "uniqueDisplayNames": {
+      "fromSurvivorNotes": [
+        "Diane McKernan",
+        "Janis",
+        "LB",
+        "Leslie Harmon Branman",
+        "Mary Watson",
+        "Not an Epstein survivor, but hurt by other terrible people.",
+        "Ruthe B",
+        "Stella",
+        "test"
+      ],
+      "fromGalleryPhotos": [
+        "Virginia Giuffre"
+      ]
+    },
+    "publicProfiles": [
+      {
+        "source": "survivorNotes",
+        "recordId": "jd72w26ar084904wzvgvk414e187n5r7",
+        "displayName": "test",
+        "messagePreview": "API probe - ignore",
+        "createdAt": 1780071903249.2917
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd71pfkky0wtravc738z665zsd87n0fj",
+        "displayName": "Not an Epstein survivor, but hurt by other terrible people.",
+        "messagePreview": "This is everything I didn't know that we needed. \n\nI've been so disappointed with politicians as ' allies' that will onl",
+        "createdAt": 1780071177169.6677
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd7dmxnydz91x3wmx2w8e203vd87mj2j",
+        "displayName": null,
+        "messagePreview": "We will have revenge and accountability for you all! We won’t stop until he is dead or behind bars!",
+        "createdAt": 1780071036318.839
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd7bg555e0880bk7en4xk75yw187n0gc",
+        "displayName": "Janis",
+        "messagePreview": "Stay strong and know so many Americans support you. This must be exhausting but these awful people need to be held accou",
+        "createdAt": 1780069937858.5603
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd73rvbsfz25hyvqbcwn6k65kx87mwcd",
+        "displayName": "Ruthe B",
+        "messagePreview": "Thank you for your steadfast courage, unwavering strength against terrible odds. We love you,  we see you, you are us, w",
+        "createdAt": 1780069756290.534
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd7897b1xd9n5ntes27qrfdw4s87nn40",
+        "displayName": "Mary Watson",
+        "messagePreview": "Thank you for your continued strength courage. I am an incest survivor, and my father was never reported or held account",
+        "createdAt": 1780068704308.7131
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd74wask2074e7dnkhdr7spvsn87n5mh",
+        "displayName": "Diane McKernan",
+        "messagePreview": "Thank you for standing up - it is extremely hard and you all have a lot of courage Lets get these people and throw them ",
+        "createdAt": 1780068088990.2964
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd782jcw4eppkjsxzyn29ysp1187mp23",
+        "displayName": "Stella",
+        "messagePreview": "Dear Survivor Sisters, \n\nYou have all been incredibly brave. I hope that you all get to see some justice in the future. ",
+        "createdAt": 1780065400991.051
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd7d8j3eb6mgfhmgcqrtw8be3187mfrw",
+        "displayName": null,
+        "messagePreview": "Much support from Missouri. Thank you for what you're doing!",
+        "createdAt": 1780064977018.5718
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd76eb8rwvsg8pd41ywddkh39h8700bd",
+        "displayName": "Leslie Harmon Branman",
+        "messagePreview": "YOU GO LADIES! Thank you for standing up for all the unspoken survivors! You guys to stand up for what’s right is what t",
+        "createdAt": 1779157225519.1877
+      },
+      {
+        "source": "survivorNotes",
+        "recordId": "jd78wqkapkapbpnkszs5y2093186xefa",
+        "displayName": "LB",
+        "messagePreview": "You are ALL doing GODS Work! Keep up the good fight!",
+        "createdAt": 1779061765427.1995
+      }
+    ]
+  }
+}

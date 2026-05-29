@@ -1,0 +1,16 @@
+{
+  "module": "users",
+  "function": "list",
+  "type": "query",
+  "convexPath": "users:list",
+  "endpoint": "https://glorious-eel-524.convex.cloud/api/query",
+  "fetchedAt": "2026-05-29T16:29:08.699212+00:00",
+  "request": {
+    "path": "users:list",
+    "args": {}
+  },
+  "response": {
+    "status": "error",
+    "errorMessage": "[Request ID: 49cc13f8d8e13b44] Server Error"
+  }
+}
