@@ -1,0 +1,21 @@
+{
+  "module": "users",
+  "function": "updateCurrentUser",
+  "type": "mutation",
+  "convexPath": "users:updateCurrentUser",
+  "endpoint": "https://glorious-eel-524.convex.cloud/api/mutation",
+  "fetchedAt": "2026-05-29T16:25:23.902510+00:00",
+  "request": {
+    "path": "users:updateCurrentUser",
+    "args": {}
+  },
+  "response": {
+    "status": "error",
+    "errorMessage": "[Request ID: 5aae8f61d85455b9] Server Error",
+    "errorData": {
+      "code": "UNAUTHENTICATED",
+      "message": "User not logged in"
+    }
+  },
+  "error": null
+}

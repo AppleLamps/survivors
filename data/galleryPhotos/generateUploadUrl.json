@@ -1,0 +1,17 @@
+{
+  "module": "galleryPhotos",
+  "function": "generateUploadUrl",
+  "type": "mutation",
+  "convexPath": "galleryPhotos:generateUploadUrl",
+  "endpoint": "https://glorious-eel-524.convex.cloud/api/mutation",
+  "fetchedAt": "2026-05-29T16:25:23.902510+00:00",
+  "request": {
+    "path": "galleryPhotos:generateUploadUrl",
+    "args": {}
+  },
+  "response": {
+    "status": "success",
+    "value": "https://glorious-eel-524.convex.cloud/api/storage/upload?token=0191507ffab6a7361a055984b6d0d89292d4ecc3713476eb05d5ab81ce7bf11eb7c5e5852d32435387399ab4c213479f2e5fdb4f2c812c"
+  },
+  "error": null
+}

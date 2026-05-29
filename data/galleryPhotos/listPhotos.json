@@ -1,0 +1,27 @@
+{
+  "module": "galleryPhotos",
+  "function": "listPhotos",
+  "type": "query",
+  "convexPath": "galleryPhotos:listPhotos",
+  "endpoint": "https://glorious-eel-524.convex.cloud/api/query",
+  "fetchedAt": "2026-05-29T16:25:23.902510+00:00",
+  "request": {
+    "path": "galleryPhotos:listPhotos",
+    "args": {}
+  },
+  "response": {
+    "status": "success",
+    "value": [
+      {
+        "_creationTime": 1779062989819.2327,
+        "_id": "jh794yjb4hg7kn9ppmpm24rpeh86zg20",
+        "category": "media",
+        "context": "Interview",
+        "imageUrl": "https://glorious-eel-524.convex.cloud/api/storage/10673172-ab73-4d1a-abc5-f932c4d149e3",
+        "storageId": "kg202q86cpxwvk0d04n5vm4qhx86y1xr",
+        "survivorName": "Virginia Giuffre"
+      }
+    ]
+  },
+  "error": null
+}

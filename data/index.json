@@ -1,0 +1,56 @@
+{
+  "source": "https://survivorsisters.org/",
+  "convexDeployment": "https://glorious-eel-524.convex.cloud",
+  "fetchedAt": "2026-05-29T16:25:23.902510+00:00",
+  "functions": [
+    {
+      "module": "emails",
+      "function": "sendContactEmail",
+      "type": "mutation",
+      "file": "emails/sendContactEmail.json",
+      "status": "error"
+    },
+    {
+      "module": "galleryPhotos",
+      "function": "listPhotos",
+      "type": "query",
+      "file": "galleryPhotos/listPhotos.json",
+      "status": "success"
+    },
+    {
+      "module": "galleryPhotos",
+      "function": "generateUploadUrl",
+      "type": "mutation",
+      "file": "galleryPhotos/generateUploadUrl.json",
+      "status": "success"
+    },
+    {
+      "module": "galleryPhotos",
+      "function": "submitPhoto",
+      "type": "mutation",
+      "file": "galleryPhotos/submitPhoto.json",
+      "status": "error"
+    },
+    {
+      "module": "survivorNotes",
+      "function": "listNotes",
+      "type": "query",
+      "file": "survivorNotes/listNotes.json",
+      "status": "success"
+    },
+    {
+      "module": "survivorNotes",
+      "function": "submitNote",
+      "type": "mutation",
+      "file": "survivorNotes/submitNote.json",
+      "status": "error"
+    },
+    {
+      "module": "users",
+      "function": "updateCurrentUser",
+      "type": "mutation",
+      "file": "users/updateCurrentUser.json",
+      "status": "error"
+    }
+  ]
+}
